@@ -1,5 +1,15 @@
+import Header from "./components/Header";
+import Quiz from "./components/Quiz";
+
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <Quiz />
+      </main>
+    </>
+  );
 }
 
 export default App;
